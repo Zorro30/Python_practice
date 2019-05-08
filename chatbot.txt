@@ -1,0 +1,41 @@
+Before creating a bot, I would suggest that you understand the main aspects of bot building - Flow & Natural Language Understanding. I have written a detailed post on Flow & NLU here. Do read it before moving forward.
+
+Now when you have understood the basics of chatbot building, let’s get right into it.
+
+You can create a chatbot in 3 ways -
+
+Code Everything Yourself - Use open source libraries like Apache Open NLP or Stanford Open NLP to create your own Flow and NLU.
+Pros - You control everything which means that you can create custom features for your users
+Cons -
+It is going to take up a lot of your time; whatever time you could have spent making the product better will be spent just understanding and building a basic chatbot.
+You need to have a lot of prior knowledge of coding in (preferably ) Python/Java.
+You also need to have some exposure to Machine Learning problems, else the time taken to get something up and running will go up significantly.
+Use NLP platforms to do the Intent and Entity extraction - This takes over the load of understanding Machine Learning, but you still need to code your own Flow
+Pros - You can use APIs from API.ai, wit.ai, LUIS, IBM Watson for the NLU part and also retain the flexibility of creating custom features
+Cons -
+This is also very time taking, because you have to code all of the flow on your back-end.
+You need to have a lot of prior knowledge of coding in (preferably ) Python/Java.
+Use DIY (Do It Yourself) platforms for building a bot - There are some platforms like which provide you with Drag ‘n’ Drop features to build chat bots in very less time and without any coding. There are two types of platforms -
+Flow + NLU DIY platforms -
+ChatterOn - Provides you with a dashboard to build AI based chatbots without any coding in less than 10 minutes. Enables you to create both NLU and flow on the platform and helps you save a huge amount of time on building and deploying a chatbot. They also help you maintain, promote and deploy your chatbot on multiple platforms.
+Flow Only platforms -
+Chatfuel - Allows you to pick from existing templates or create your own bot with an easy to use interface. Allows you to create Facebook specific bots with rich UI elements directly from the platform.
+Flow XO - Provides a drag and drop UI and allows a lot of external integrations. Mainly useful for bringing many services together and automating internal processes.
+
+
+Sites to check:
+
+https://www.instabot.io/
+https://www.chatteron.io/
+
+Way to implement Bot to the Website:
+
+https://www.gupshup.io/developer/docs/bot-platform/guide/add-a-chatbot-to-your-website
+
+using dialog flow
+https://chatbotslife.com/integrate-dialogflow-api-ai-bot-into-website-661a70b22199
+
+https://support.snatchbot.me/docs/deploy-your-bot-on-your-website
+
+https://hubtype.com/articles/how-to-create-a-chatbot-for-your-website.html
+
