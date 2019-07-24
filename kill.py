@@ -9,4 +9,4 @@ with open('kill.txt','r') as f:
 for i in content:
     val = i[5:11]
     os.system('kill -9 {}'.format(i))
-    print('Killed process no. {}'.format(i))
+    print('Killed process no. {}'.format(val))
